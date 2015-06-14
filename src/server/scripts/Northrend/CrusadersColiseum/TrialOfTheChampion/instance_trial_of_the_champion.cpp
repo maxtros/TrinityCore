@@ -189,7 +189,7 @@ public:
                     Creature* champion1 = instance->GetCreature(uiGrandChampion1GUID);
                     Creature* champion2 = instance->GetCreature(uiGrandChampion2GUID);
                     Creature* champion3 = instance->GetCreature(uiGrandChampion3GUID);
-                    if (champion1 && champion2 && champion2)
+                    if (champion1 && champion2 && champion3)
                     {
                         champion1->AI()->DoAction(1);
                         champion2->AI()->DoAction(1);
