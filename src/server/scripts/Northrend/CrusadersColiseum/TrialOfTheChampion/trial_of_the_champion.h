@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2008-2015 TrinityCore <http://www.trinitycore.org/>
- * Copyright (C) 2006-2009 ScriptDev2 <https://scriptdev2.svn.sourceforge.net/>
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -153,25 +152,25 @@ enum GameObjects
 
 enum Vehicles
 {
-    //Grand Champions Alliance Vehicles
+    // Grand Champions Alliance Vehicles
     VEHICLE_MARSHAL_JACOB_ALERIUS_MOUNT             = 35637,
     VEHICLE_AMBROSE_BOLTSPARK_MOUNT                 = 35633,
     VEHICLE_COLOSOS_MOUNT                           = 35768,
     VEHICLE_EVENSONG_MOUNT                          = 34658,
     VEHICLE_LANA_STOUTHAMMER_MOUNT                  = 35636,
-    //Alliance Champions escort vehicles
+    // Alliance Champions escort vehicles
     VEHICLE_DARNASSIA_NIGHTSABER                    = 33319,
     VEHICLE_EXODAR_ELEKK                            = 33318,
     VEHICLE_STORMWIND_STEED                         = 33217,
     VEHICLE_GNOMEREGAN_MECHANOSTRIDER               = 33317,
     VEHICLE_IRONFORGE_RAM                           = 33316,
-    //Grand Champions Horde Vehicles
+    // Grand Champions Horde Vehicles
     VEHICLE_MOKRA_SKILLCRUSHER_MOUNT                = 35638,
     VEHICLE_ERESSEA_DAWNSINGER_MOUNT                = 35635,
     VEHICLE_RUNOK_WILDMANE_MOUNT                    = 35640,
     VEHICLE_ZUL_TORE_MOUNT                          = 35641,
     VEHICLE_DEATHSTALKER_VESCERI_MOUNT              = 35634,
-    //Horde Champions escort vehicles
+    // Horde Champions escort vehicles
     VEHICLE_FORSAKE_WARHORSE                        = 33324,
     VEHICLE_THUNDER_BLUFF_KODO                      = 33322,
     VEHICLE_ORGRIMMAR_WOLF                          = 33320,
