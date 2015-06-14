@@ -1,4 +1,3 @@
-UPDATE `creature_template` SET `faction`=14, `unit_flags`= 2, `scriptName`='generic_vehicleAI_toc5' WHERE `entry` IN (33217,33316,33317,33318,33319,33320,33321,33322,33323,33324,34658,35633,35634,35635,35636,35637,35638,35640,35641,35768);
 UPDATE `creature_template` SET `unit_flags`=33554690 WHERE `scriptname` like'boss%toc5';
 
 UPDATE `creature_template` SET `gossip_menu_id`=10614 WHERE `entry`IN(35004,35005);
@@ -68,3 +67,6 @@ INSERT INTO `creature_text` (`entry`, `groupid`, `id`, `text`, `type`, `language
 (34994, 0, 0, 'Garrosh, enough.', 12, 0, 100, 396, 0, 0, 35325, 0, 'Thrall - GRAND_CHAMPIONS_INTRO_A'),
 (34994, 1, 0, 'Fight well, Horde! Lok\'tar Ogar!', 14, 0, 100, 22, 0, 0, 35326, 0, 'Thrall - GRAND_CHAMPIONS_INTRO_H'),
 (34994, 2, 0, 'Well done, Horde!', 14, 0, 100, 66, 0, 0, 35794, 0, 'Thrall - BLACK_KNIGHT_OUTRO');
+
+-- Black Knight's Gryphon should fly
+UPDATE `creature_template` SET `InhabitType`=7 WHERE `entry`=35491;
