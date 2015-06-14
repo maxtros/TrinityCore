@@ -158,24 +158,12 @@ enum Vehicles
     VEHICLE_COLOSOS_MOUNT                           = 35768,
     VEHICLE_EVENSONG_MOUNT                          = 34658,
     VEHICLE_LANA_STOUTHAMMER_MOUNT                  = 35636,
-    // Alliance Champions escort vehicles
-    VEHICLE_DARNASSIA_NIGHTSABER                    = 33319,
-    VEHICLE_EXODAR_ELEKK                            = 33318,
-    VEHICLE_STORMWIND_STEED                         = 33217,
-    VEHICLE_GNOMEREGAN_MECHANOSTRIDER               = 33317,
-    VEHICLE_IRONFORGE_RAM                           = 33316,
     // Grand Champions Horde Vehicles
     VEHICLE_MOKRA_SKILLCRUSHER_MOUNT                = 35638,
     VEHICLE_ERESSEA_DAWNSINGER_MOUNT                = 35635,
     VEHICLE_RUNOK_WILDMANE_MOUNT                    = 35640,
     VEHICLE_ZUL_TORE_MOUNT                          = 35641,
     VEHICLE_DEATHSTALKER_VESCERI_MOUNT              = 35634,
-    // Horde Champions escort vehicles
-    VEHICLE_FORSAKE_WARHORSE                        = 33324,
-    VEHICLE_THUNDER_BLUFF_KODO                      = 33322,
-    VEHICLE_ORGRIMMAR_WOLF                          = 33320,
-    VEHICLE_SILVERMOON_HAWKSTRIDER                  = 33323,
-    VEHICLE_DARKSPEAR_RAPTOR                        = 33321,
 
     VEHICLE_ARGENT_WARHORSE                         = 35644,
     VEHICLE_ARGENT_BATTLEWORG                       = 36558,
