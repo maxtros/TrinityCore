@@ -88,25 +88,25 @@ public:
                         creature->UpdateEntry(VEHICLE_LANA_STOUTHAMMER_MOUNT);
                     break;
                 //
-                case VEHICLE_FORSAKE_WARHORSE:
+                case NPC_UNDERCITY_CHAMPION:
                     if (TeamInInstance == HORDE)
-                        creature->UpdateEntry(VEHICLE_IRONFORGE_RAM);
+                        creature->UpdateEntry(NPC_IRONFORGE_CHAMPION);
                     break;
-                case VEHICLE_THUNDER_BLUFF_KODO:
+                case NPC_THUNDERBLUFF_CHAMPION:
                     if (TeamInInstance == HORDE)
-                        creature->UpdateEntry(VEHICLE_EXODAR_ELEKK);
+                        creature->UpdateEntry(NPC_EXODAR_CHAMPION);
                     break;
-                case VEHICLE_ORGRIMMAR_WOLF:
+                case NPC_ORGRIMMAR_CHAMPION:
                     if (TeamInInstance == HORDE)
-                        creature->UpdateEntry(VEHICLE_STORMWIND_STEED);
+                        creature->UpdateEntry(NPC_STORMWIND_CHAMPION);
                     break;
-                case VEHICLE_SILVERMOON_HAWKSTRIDER:
+                case NPC_SILVERMOON_CHAMPION:
                     if (TeamInInstance == HORDE)
-                        creature->UpdateEntry(VEHICLE_GNOMEREGAN_MECHANOSTRIDER);
+                        creature->UpdateEntry(NPC_GNOMEREGAN_CHAMPION);
                     break;
-                case VEHICLE_DARKSPEAR_RAPTOR:
+                case NPC_SENJIN_CHAMPION:
                     if (TeamInInstance == HORDE)
-                        creature->UpdateEntry(VEHICLE_DARNASSIA_NIGHTSABER);
+                        creature->UpdateEntry(NPC_DARNASSUS_CHAMPION);
                     break;
                 // Grand champions
                 case NPC_MOKRA:
