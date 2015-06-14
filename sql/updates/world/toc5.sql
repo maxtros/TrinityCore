@@ -1,3 +1,4 @@
+--
 UPDATE `creature_template` SET `scriptName`='generic_vehicleAI_toc5' WHERE `entry` IN (35314, 35323, 35325, 35326, 35327, 35328, 35329, 35330, 35331, 35332);
 UPDATE `creature_template` SET `unit_flags`=33554690 WHERE `scriptname` like'boss%toc5';
 
@@ -71,3 +72,10 @@ INSERT INTO `creature_text` (`entry`, `groupid`, `id`, `text`, `type`, `language
 
 -- Black Knight's Gryphon should fly
 UPDATE `creature_template` SET `InhabitType`=7 WHERE `entry`=35491;
+
+UPDATE `creature_template` SET `npcflag`=16777216, `unit_flags`=256 WHERE `entry` IN  (35644, 36558, 36557, 36559);
+UPDATE `creature_template` SET `spell1`=68505, `spell2`=62575, `spell3`=68282, `spell4`=62552 WHERE `entry`=36557;
+DELETE FROM `npc_spellclick_spells` WHERE `npc_entry` IN (36557, 36559);
+INSERT INTO `npc_spellclick_spells` (`npc_entry`, `spell_id`, `cast_flags`, `user_type`) VALUES
+(36557, 67830, 1, 0),
+(36559, 67830, 1, 0);
