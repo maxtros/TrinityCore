@@ -1,3 +1,4 @@
+UPDATE `creature_template` SET `scriptName`='generic_vehicleAI_toc5' WHERE `entry` IN (35314, 35323, 35325, 35326, 35327, 35328, 35329, 35330, 35331, 35332);
 UPDATE `creature_template` SET `unit_flags`=33554690 WHERE `scriptname` like'boss%toc5';
 
 UPDATE `creature_template` SET `gossip_menu_id`=10614 WHERE `entry`IN(35004,35005);
