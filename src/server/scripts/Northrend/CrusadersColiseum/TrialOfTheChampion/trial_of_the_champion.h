@@ -165,9 +165,10 @@ enum Vehicles
     VEHICLE_ZUL_TORE_MOUNT                          = 35641,
     VEHICLE_DEATHSTALKER_VESCERI_MOUNT              = 35634,
 
-    VEHICLE_ARGENT_WARHORSE                         = 35644,
+    VEHICLE_ARGENT_WARHORSE                         = 36557,
     VEHICLE_ARGENT_BATTLEWORG                       = 36558,
-
+    VEHICLE_ARGENT_WARHORSE_AGRESSIF                = 35644,
+    VEHICLE_ARGENT_BATTLEWORG_AGRESSIF              = 36559,
     VEHICLE_BLACK_KNIGHT                            = 35491
 };
 
