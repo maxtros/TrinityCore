@@ -88,7 +88,7 @@ enum CreatureIds
     NPC_EXODAR_CHAMPION         = 35330,
     NPC_GNOMEREGAN_CHAMPION     = 35331,
     NPC_DARNASSUS_CHAMPION      = 35332,
-    
+
     NPC_EADRIC                  = 35119,
     NPC_PALETRESS               = 34928,
 
