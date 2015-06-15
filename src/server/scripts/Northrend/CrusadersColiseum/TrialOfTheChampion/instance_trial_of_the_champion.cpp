@@ -167,6 +167,7 @@ public:
                         creature->UpdateEntry(VEHICLE_ARGENT_WARHORSE);
                     break;
                 case VEHICLE_ARGENT_WARHORSE_AGRESSIF:
+                    VehicleList.push_back(creature->GetGUID());
                     if (TeamInInstance == ALLIANCE)
                         creature->UpdateEntry(VEHICLE_ARGENT_BATTLEWORG_AGRESSIF);
                     break;
