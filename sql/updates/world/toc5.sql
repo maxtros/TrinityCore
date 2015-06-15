@@ -9,8 +9,8 @@ INSERT INTO `gossip_menu_option` (`menu_id`, `id`, `option_icon`, `option_text`,
 (10614, 1, 0, 'I am ready for the next challenge.', 35538, 1, 1, 0, 0, 0, 0, '', 0),
 (10614, 2, 0, 'I am ready.  However, I\'d like to skip the pageantry.', 36657, 1, 1, 0, 0, 0, 0, '', 0);
 
-DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=15 AND `SourceGroup`=10614; 
-INSERT INTO `conditions` (`SourceTypeOrReferenceId`,`SourceGroup`,`SourceEntry`,`SourceId`,`ElseGroup`,`ConditionTypeOrReference`,`ConditionTarget`,`ConditionValue1`,`ConditionValue2`,`ConditionValue3`,`NegativeCondition`,`ErrorType`,`ErrorTextId`,`ScriptName`,`Comment`) VALUES 
+DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=15 AND `SourceGroup`=10614;
+INSERT INTO `conditions` (`SourceTypeOrReferenceId`,`SourceGroup`,`SourceEntry`,`SourceId`,`ElseGroup`,`ConditionTypeOrReference`,`ConditionTarget`,`ConditionValue1`,`ConditionValue2`,`ConditionValue3`,`NegativeCondition`,`ErrorType`,`ErrorTextId`,`ScriptName`,`Comment`) VALUES
 (15,10614,0,0,0,13,1,0,3,2,1,0,0,'','Show gossip option only if GrandChampions is not done'),
 (15,10614,1,0,0,13,1,3,3,2,1,0,0,'','Show gossip option only if BlacKnight is not done'),
 (15,10614,1,0,0,13,1,0,3,2,0,0,0,'','Show gossip option only if GrandChampions is done'),
@@ -44,7 +44,7 @@ INSERT INTO `creature_text` (`entry`, `groupid`, `id`, `text`, `type`, `language
 
 -- varian
 DELETE FROM `creature_text` WHERE `entry`=34990 AND `groupid`>=50;
-INSERT INTO `creature_text` (`entry`, `groupid`, `id`, `text`, `type`, `language`, `probability`, `emote`, `duration`, `sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES 
+INSERT INTO `creature_text` (`entry`, `groupid`, `id`, `text`, `type`, `language`, `probability`, `emote`, `duration`, `sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
 (34990, 50, 0, 'I have no taste for these games, Tirion. Still... I trust they will perform admirably.', 12, 0, 100, 1, 0, 0, 35322, 0, 'King Varian Wrynn - GRAND_CHAMPIONS_INTRO_A'),
 (34990, 51, 0, 'I did not come here to watch animals tear at each other senselessly, Tirion.', 12, 0, 100, 1, 0, 0, 35328, 0, 'King Varian Wrynn - GRAND_CHAMPIONS_INTRO_H'),
 (34990, 52, 0, 'Don\'t just stand there; kill him!', 14, 0, 100, 22, 0, 0, 35550, 0, 'King Varian Wrynn - BLACK_KNIGHT_INTRO'),
