@@ -237,7 +237,7 @@ public:
         void UpdateAI(uint32 diff) override
         {
             events.Update(diff);
-            
+
             while (uint32 eventId = events.ExecuteEvent())
             {
                 switch (eventId)
@@ -451,7 +451,7 @@ public:
         {
             instance = creature->GetInstanceScript();
         }
-        
+
         void Reset() override
         {
             events.Reset();
