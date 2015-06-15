@@ -558,16 +558,16 @@ public:
         {
             switch (summon->GetEntry())
             {
-                case VEHICLE_DARNASSIA_NIGHTSABER:
-                case VEHICLE_EXODAR_ELEKK:
-                case VEHICLE_STORMWIND_STEED:
-                case VEHICLE_GNOMEREGAN_MECHANOSTRIDER:
-                case VEHICLE_IRONFORGE_RAM:
-                case VEHICLE_FORSAKE_WARHORSE:
-                case VEHICLE_THUNDER_BLUFF_KODO:
-                case VEHICLE_ORGRIMMAR_WOLF:
-                case VEHICLE_SILVERMOON_HAWKSTRIDER:
-                case VEHICLE_DARKSPEAR_RAPTOR:
+                case NPC_DARNASSUS_CHAMPION:
+                case NPC_EXODAR_CHAMPION:
+                case NPC_STORMWIND_CHAMPION:
+                case NPC_GNOMEREGAN_CHAMPION:
+                case NPC_IRONFORGE_CHAMPION:
+                case NPC_UNDERCITY_CHAMPION:
+                case NPC_THUNDERBLUFF_CHAMPION:
+                case NPC_ORGRIMMAR_CHAMPION:
+                case NPC_SILVERMOON_CHAMPION:
+                case NPC_SENJIN_CHAMPION:
                     SetData(DATA_LESSER_CHAMPIONS_DEFEATED, 0);
                     break;
             }
