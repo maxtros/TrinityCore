@@ -136,7 +136,6 @@ public:
                         creature->UpdateEntry(NPC_ARELAS);
                     break;
                 case VEHICLE_ARGENT_WARHORSE:
-                case VEHICLE_ARGENT_BATTLEWORG:
                     VehicleList.push_back(creature->GetGUID());
                     break;
                 case NPC_EADRIC:
@@ -163,6 +162,7 @@ public:
                     uiKnightGUID = creature->GetGUID();
                     break;
                 case VEHICLE_ARGENT_BATTLEWORG:
+                    VehicleList.push_back(creature->GetGUID());
                     if (TeamInInstance == ALLIANCE)
                         creature->UpdateEntry(VEHICLE_ARGENT_WARHORSE);
                     break;
