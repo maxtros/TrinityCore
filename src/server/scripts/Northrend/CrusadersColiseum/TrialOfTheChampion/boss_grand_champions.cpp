@@ -113,7 +113,7 @@ void AggroAllPlayers(Creature* temp)
 void GuidDataAdder(Creature* creature)
 {
     InstanceScript* instance = creature->GetInstanceScript();
-    
+
     if (!instance)
         return;
 
@@ -811,7 +811,7 @@ public:
                 me->GetMotionMaster()->MoveTargetedHome();
             }
         }
-        
+
         void UpdateAI(uint32 uiDiff) override
         {
             if (uiPhaseTimer <= uiDiff)
