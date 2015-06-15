@@ -178,7 +178,7 @@ public:
             Creature* creature = unit->ToCreature();
             if (!creature)
                 return;
-            
+
             switch (creature->GetEntry())
             {
             case VEHICLE_MARSHAL_JACOB_ALERIUS_MOUNT:
@@ -202,7 +202,7 @@ public:
                         champion1->AI()->DoAction(1);
                         champion2->AI()->DoAction(1);
                         champion3->AI()->DoAction(1);
-                        
+
                         for (GuidList::const_iterator itr = VehicleList.begin(); itr != VehicleList.end(); ++itr)
                             if (Creature* vehicles = instance->GetCreature(*itr))
                                 vehicles->DespawnOrUnsummon();
@@ -214,7 +214,7 @@ public:
                 break;
             }
         }
-        
+
         void OnGameObjectCreate(GameObject* go) override
         {
             switch (go->GetEntry())
@@ -445,7 +445,7 @@ public:
 
             return false;
         }
-        
+
         uint32 GetRelatedCreatureEntry(uint32 criteria_id)
         {
             switch (criteria_id)
@@ -508,7 +508,7 @@ public:
             }
 
             return 0;
-        }        
+        }
 
         private:
             ObjectGuid uiAnnouncerGUID;
