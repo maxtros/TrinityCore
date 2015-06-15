@@ -43,7 +43,7 @@ enum Yells
     PALETRESS_SAY_AGGRO,
     PALETRESS_SAY_MEMORY_SUMMON,
     PALETRESS_SAY_MEMORY_DEATH,
-    
+
     SAY_KILL_PLAYER,
     SAY_DEFEATED,
 
@@ -233,7 +233,7 @@ public:
             if (who->GetTypeId() == TYPEID_PLAYER)
                 Talk(SAY_KILL_PLAYER);
         }
-        
+
         void UpdateAI(uint32 diff) override
         {
             events.Update(diff);
