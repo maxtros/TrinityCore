@@ -162,6 +162,14 @@ public:
                 case NPC_BLACK_KNIGHT:
                     uiKnightGUID = creature->GetGUID();
                     break;
+                case VEHICLE_ARGENT_BATTLEWORG:
+                    if (TeamInInstance == ALLIANCE)
+                        creature->UpdateEntry(VEHICLE_ARGENT_WARHORSE);
+                    break;
+                case VEHICLE_ARGENT_WARHORSE_AGRESSIF:
+                    if (TeamInInstance == ALLIANCE)
+                        creature->UpdateEntry(VEHICLE_ARGENT_BATTLEWORG_AGRESSIF);
+                    break;
             }
         }
 
