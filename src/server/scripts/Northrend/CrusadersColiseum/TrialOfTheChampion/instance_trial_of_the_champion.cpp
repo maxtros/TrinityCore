@@ -207,7 +207,7 @@ public:
                             if (Creature* vehicles = instance->GetCreature(*itr))
                                 vehicles->DespawnOrUnsummon();
                     }
-                    DoRemoveAurasDueToSpellOnPlayers(66482); // Defender
+                    DoRemoveAurasDueToSpellOnPlayers(SPELL_DEFEND_TOTC); // Defender
                 }
                 break;
             default:
